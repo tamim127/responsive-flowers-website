@@ -119,3 +119,76 @@ li a {
     width: 35.62rem;
     height: 22.18rem;
 }
+
+
+/* smaller device responsive */
+@media screen and (max-width: 576px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Header section responsive */
+
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .logo {
+        width: 80px;
+        height: auto;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    nav ul li.cart-item {
+        display: block;
+    }
+
+    /* Banner section responsive */
+
+    .banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 106px auto;
+        max-width: 100%;
+    }
+
+    .banner-content {
+        margin: 20px 20px;
+    }
+
+    .banner-title {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .banner-description {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .img-container {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: auto;
+    }
+}
