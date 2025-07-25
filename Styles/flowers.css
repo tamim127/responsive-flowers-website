@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /* google fonts */
 
 .noto-serif-normal {
@@ -48,10 +47,42 @@ ul {
 }
 
 nav ul li {
-
     list-style: none;
 }
 
 li a {
     text-decoration: none;
+}
+
+/* shared styles */
+
+.dark-1 {
+  color: #8987A1;
+}
+
+.dark-2 {
+  color: black;
+  font-weight: bold;
+}
+
+.dark-3 {
+  color: #252432;
+  font-weight: 600;
+}
+
+.dark-4 {
+  color: black;
+}
+
+.text-pmy {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.text-color {
+  color: #E95A08;
+}
+
+.text-color-2 {
+  color: #ffffff;
 }
